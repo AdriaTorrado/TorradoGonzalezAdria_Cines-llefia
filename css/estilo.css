@@ -1,0 +1,128 @@
+#sesion{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    margin: 0 10px 0px ;
+}
+#sesion li{
+    padding-right: 10px;
+}
+#sesion li a{
+    text-decoration: none;
+    color: gray;
+}
+#top_2{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 30px;
+}
+#top_2 li a{
+    text-decoration: none;
+    color: black;
+}
+#top_3{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+#top_3 li a{
+    text-decoration: none;
+    border: solid 0px black;
+    background-color: rgb(190, 188, 188);
+    color: rgb(43, 127, 236);
+    padding: 10px;
+}
+#botones ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+#botones ul li{
+    padding-right: 10px;
+    color: rgb(43, 127, 236);
+}
+#botones ul li a{
+    text-decoration: none;
+}
+#cubierto{
+    background-color:rgb(43, 127, 236);
+    color: white;
+    padding: 10px;
+}
+#subr{
+    color: rgb(43, 127, 236);
+}
+#subr:hover{
+    background-color: rgb(43, 127, 236);
+    color: white;
+    padding: 10px;
+}
+#icon{
+    width: 20px;
+}
+#peli{
+    width: 200px;
+}
+body{
+    background-image: url('/imagenes/thor.webp');
+}
+header{
+    background-color: white;
+    padding: 10px;
+}
+header .fondo_amarillo:hover{
+    background-color: yellow;
+    padding: 10px;
+}
+main{
+    margin-top: 400px;
+    margin-bottom: 50px;
+}
+main h3{
+    color: rgb(43, 127, 236);
+}
+main #pelis{
+    background-color: rgb(240, 240, 240);
+    padding: 5px;
+}
+main #pelis #top_3{
+    margin-top: 10px;
+}
+main #botones{
+    margin-top: 32px;
+}
+main .flex{
+    display: flex;
+}
+nav #carteleras{
+    display:flex ;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+nav #carteleras2{
+    display:flex ;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+nav .bordes{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 30px;
+}
+footer ul li{
+    list-style: none;
+}
+footer h3{
+    color: rgb(17, 64, 124);
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(165, 162, 162);
+}
