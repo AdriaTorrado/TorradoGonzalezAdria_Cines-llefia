@@ -65,7 +65,9 @@
     width: 200px;
 }
 body{
-    background-image: url('/imagenes/thor.webp');
+    background-image: url('/imagenes/Oppenheimer.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
 }
 header{
     background-color: white;
@@ -125,4 +127,7 @@ footer h3{
 footer ul li a{
     text-decoration: none;
     color: rgb(165, 162, 162);
+}
+label{
+    background-color: grey;
 }
