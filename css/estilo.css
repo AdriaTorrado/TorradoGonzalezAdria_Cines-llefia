@@ -3,6 +3,7 @@
     list-style: none;
     justify-content: end;
     margin: 0 10px 0px ;
+    margin-bottom: -16px;
 }
 #sesion li{
     padding-right: 10px;
@@ -15,7 +16,7 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-    margin-top: 30px;
+
 }
 #top_2 li a{
     text-decoration: none;
@@ -65,37 +66,22 @@
     width: 200px;
 }
 body{
-    background-image: url('/imagenes/Oppenheimer.jpg');
+    background-image: url('../imagenes/Oppenheimer.jpg');
     background-size:cover ;
     background-repeat: no-repeat;
 }
 header ul{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
 }
 header .fondo_amarillo:hover{
     background-color: yellow;
     padding: 10px;
 }
-main{
-    margin-top: 400px;
-    margin-bottom: 50px;
-}
-main h3{
-    color: rgb(43, 127, 236);
-}
-main #pelis{
-    background-color: rgb(240, 240, 240);
-    padding: 5px;
-}
-main nav #pelis #top_3{
-    margin-top: 10px;
-}
 main #botones{
     margin-top: 32px;
-}
-main .flex{
-    display: flex;
+    background-color: white;
+    padding: 10px;
 }
 nav #carteleras{
     display:flex ;
@@ -113,9 +99,7 @@ nav .bordes{
     padding: 20px;
 }
 footer{
-    display: flex;
     justify-content: center;
-    background-color: white;
     padding: 30px;
 }
 footer ul li{
@@ -130,4 +114,42 @@ footer ul li a{
 }
 label{
     background-color: grey;
+}
+#cont{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-bottom: 10px;
+}
+#red{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+#ftiy{
+    margin-right: 100px;
+}
+#size{
+    height: 50px;
+}
+#gr{
+    background-color: rgb(231, 231, 231);
+    padding-bottom:25px ;
+    padding-top: 10px;
+}
+#mov ul li{
+    margin-bottom: 15px;
+}
+#tabl{
+    background-color: white;
+}
+tr{
+    justify-content: space-around;
+}
+.tabw{
+    background-color: white;
+    padding: 10px;
+}
+caption{
+    background-color: white;
 }
